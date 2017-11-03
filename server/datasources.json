@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+"Music": {
+    "name": "Music",
+    "connector": "loopback-connector-dynamodb",
+    "region": "us-east-2"
+  }
+}
